@@ -1,0 +1,26 @@
+{
+  "ts-node": {
+    "files": true
+  },
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "incremental": true,
+    "module": "commonjs",
+    "outDir": "./dist/app",
+    "paths": {
+      "@libs/auth": ["libs/auth/src"],
+      "@libs/google-oauth": ["libs/google-oauth/src"],
+      "@libs/postgresql": ["libs/postgresql/src"],
+    },
+    "removeComments": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strictBindCallApply": true,
+    "target": "es2017",
+  },
+}
